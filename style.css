@@ -1,0 +1,81 @@
+BODY {
+    background: no-repeat url(mountains.jpg);
+	background-size: cover;
+   }
+
+div.clock_separator{
+	float: left;
+	margin-right: 10px;
+	padding-top: 40px;
+	width: 17px;	height: 138px;
+}
+
+div.el_separator_inactive{
+	float: down;
+	margin: auto;
+	margin-top: 20px;
+	width: 17px;	height: 17px;
+	opacity: 0.35;
+	transition: all 1s linear;
+	background: #C0C0C0;
+}
+
+div.el_separator_active{
+	float: down;
+	margin: auto;
+	margin-top: 20px;
+	width: 17px;	height: 17px;
+	opacity: 0.92;
+	background-color: #292929;
+	transition: all 1s linear;
+}
+
+div.clocks{
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 10px;
+	padding-left: 10px;
+	padding-top:10px;
+	padding-bottom:10px;
+    width: 710px;	height: 178px;
+	background: rgba(192, 192, 192, 0.35);
+}
+
+div.dyn_screen{
+	float: left;
+	margin-right: 10px;
+	width: 97px;	height: 178px;
+}
+div.el_clock_0{
+	border-radius: 2px;
+	margin: auto;
+    width: 65px;	height: 16px;
+}
+
+div.el_clock_1{
+	border-radius: 2px;
+	float: left;
+	margin-left: 0;
+    margin-right: auto;
+    width: 16px;	height: 65px;
+}
+
+div.el_clock_2{
+	border-radius: 2px;
+	float: right down;
+	margin-left: auto;
+    margin-right: 0;
+    width: 16px;	height: 65px;
+}
+
+div.is_inactive{
+	border-radius: 2px;
+	opacity: 0.35;
+	background-color: #C0C0C0;
+}
+
+div.is_active{
+	border-radius: 2px;
+	opacity: 0.92;
+	background-color: #292929;
+}
